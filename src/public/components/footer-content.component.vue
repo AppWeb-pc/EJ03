@@ -1,26 +1,26 @@
 <script >
 export default {
-  name: 'FooterContentComponent'
+  name: 'footer-content', //Se pone el nombre que le pongas al componente
 }
 </script>
 
 <template>
   <div class="footer">
-    <p>Copyright © 2024 RESTCountries, inc All rights reserved.”</p>
-    <p>Developed by: Jeremy Joel Quispe Andia (u202216279)</p>
+    <p>Copyright &copy; 2024 RESTCountries, inc All rights reserved.”</p>
+    <p><b>Developed by: Ian Haziel Donato Santisteban Palomino - u202214059</b></p>
   </div>
 
 </template>
 
 <style scoped>
 footer{
-  background-color: #000000;
-  color: #ffffff;
   text-align: center;
-  padding: 10px;
-  position: fixed;
+  padding: 2rem;
   left: 0;
   bottom: 0;
   width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
 }
 </style>
